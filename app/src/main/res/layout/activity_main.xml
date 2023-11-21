@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnhello"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello"
+        android:layout_marginTop="200dp" />
+    <Button
+        android:id="@+id/btncount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Count"
+        android:layout_marginTop="250dp" />
+    <Button
+        android:id="@+id/btnsianida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sianida"
+        android:layout_marginTop="300dp" />
+    <Button
+        android:id="@+id/btnTwoActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Two Activity"
+        android:layout_marginTop="350dp" />
+    <Button
+        android:id="@+id/btnSetalarm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set Alarm"
+        android:layout_marginTop="400dp"/>
+    <Button
+        android:id="@+id/btnRepository"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Repository"
+        android:layout_marginTop="450dp" />
+
+
+</RelativeLayout>

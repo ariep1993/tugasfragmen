@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/buttonToast"
+        android:layout_width="408dp"
+        android:layout_height="wrap_content"
+        android:text="Tampilkan Toast"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="682dp"
+        android:layout_below="@id/buttonToast"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="-2dp"
+        android:layout_marginBottom="3dp"
+        android:background="#FFEB3B"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <TextView
+            android:id="@+id/textNama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-50dp"
+            android:layout_marginBottom="20dp"
+            android:text="SARIPUDIN 312210077"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textCount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tombol Hitung diklik sebanyak : 0"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textCountFibo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="-70dp"
+            android:text="0"
+            android:textAlignment="center"
+            android:textColor="#0000ff"
+            android:textSize="180sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonCount"
+        android:layout_width="132dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="4dp"
+        android:text="HITUNG"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonReset"
+        android:layout_width="142dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="87dp"
+        android:layout_marginBottom="3dp"
+        android:text="RESET"
+        android:backgroundTint="@color/merah"
+        android:textStyle="bold" />
+
+</RelativeLayout>
