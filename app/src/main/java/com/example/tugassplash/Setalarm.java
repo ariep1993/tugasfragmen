@@ -23,7 +23,7 @@ public class Setalarm extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_setalarm);
 
-        alarmTimePicker = (alarmTimePicker) findViewById(R.id.timePicker);
+        alarmTimePicker = (TimePicker) findViewById(R.id.timePicker);
         alarmManager = (AlarmManager) getSystemService(ALARM_SERVICE);
 
     }

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <item name="buttonMax" type="id">buttonMax</item>
-    <item name="maxNumber" type="id">maxNumber</item>
-    <item name="timePicker" type="id">timePicker</item>
-</resources>

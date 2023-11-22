@@ -42,8 +42,6 @@ public class countactivity extends AppCompatActivity {
         buttonReset = (Button) findViewById(R.id.buttonReset);
         showCount = (TextView) findViewById(R.id.textCount);
         showCountFibo = (TextView) findViewById(R.id.textCountFibo);
-        buttonmax = (Button) findViewById(R.id.buttonMax);
-        maxNumber = (EditText) findViewById(R.id.maxNumber);
         layout = (LinearLayout) findViewById(R.id.linear);
 
 
