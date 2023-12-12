@@ -8,7 +8,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="180dp"
-        android:background="@color/hijau"></RelativeLayout>
+        android:background="@color/white"></RelativeLayout>
 
     <TextView
         android:layout_width="match_parent"
@@ -26,7 +26,7 @@
         android:textSize="16sp"
         android:gravity="center"
         android:layout_marginTop="90dp"
-        android:background="@color/hijau"/>
+        android:background="@color/white"/>
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="500dp"
@@ -240,6 +240,7 @@
             </LinearLayout>
         </androidx.cardview.widget.CardView>
         <androidx.cardview.widget.CardView
+            android:id="@+id/to_tabFragment"
             android:layout_width="80dp"
             android:layout_height="80dp"
             app:cardCornerRadius="15dp"
@@ -257,19 +258,21 @@
                 android:orientation="vertical"
                 android:gravity="center"
                 >
+
                 <ImageView
                     android:layout_width="40dp"
                     android:layout_height="40dp"
-                    android:src="@drawable/secury"
-                    android:layout_gravity="center_horizontal"/>
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/security" />
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="18dp"
-                    android:text="Scurity"
                     android:layout_gravity="center_horizontal"
-                    android:textStyle="bold"
-                    android:textColor="@color/black"/>
+                    android:text="tabs movie"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
         <androidx.cardview.widget.CardView

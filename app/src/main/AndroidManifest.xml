@@ -37,6 +37,9 @@
             android:name=".helloactivity"
             android:exported="false" />
         <activity
+            android:name=".TabsActivity"
+            android:exported="false" />
+        <activity
             android:name=".screenlayar"
             android:exported="true">
             <intent-filter>

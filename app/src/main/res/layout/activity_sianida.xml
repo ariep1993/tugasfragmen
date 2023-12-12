@@ -10,11 +10,11 @@
         android:id="@+id/article_hading"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/merah"
+        android:background="@color/red"
         android:padding="@dimen/padding_regular"
         android:text="@string/article_title"
         android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
-        android:textColor="@color/kuning"
+        android:textColor="@color/gold"
         android:gravity="center"
         android:textStyle="bold" />
 

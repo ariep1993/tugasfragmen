@@ -18,6 +18,7 @@ public class MainActivity2 extends AppCompatActivity {
     CardView maps;
     Uri geoLocation;
     CardView Shopping;
+    CardView tabsMovie;
 
     @SuppressLint("MissingInflatedId")
     @Override
@@ -30,7 +31,8 @@ public class MainActivity2 extends AppCompatActivity {
         twoactivity = (CardView)findViewById(R.id.to_twoactivity);
         setalarm = (CardView)findViewById(R.id.to_alarm);
         maps = (CardView) findViewById(R.id.to_maps);
-        Shopping = (CardView) findViewById(R.id.to_shopping) ;
+        Shopping = (CardView) findViewById(R.id.to_shopping);
+        tabsMovie = (CardView) findViewById(R.id.to_tabFragment);
 
         hello.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -75,6 +77,13 @@ public class MainActivity2 extends AppCompatActivity {
                 if(intent.resolveActivity(getPackageManager()) != null){
                     startActivity(intent);
                 }
+            }
+        });
+        tabsMovie.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent Buka = new Intent(MainActivity2.this, TabsActivity.class);
+                startActivity(Buka);
             }
         });
 
